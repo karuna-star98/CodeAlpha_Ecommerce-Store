@@ -47,7 +47,7 @@ const products = [
     name: 'Ceramic Coffee Mug',
     description: 'Simple ceramic mug with a comfortable handle for coffee or tea.',
     price: 399,
-    imageUrl: 'https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80',
     category: 'Home',
     stock: 40
   }

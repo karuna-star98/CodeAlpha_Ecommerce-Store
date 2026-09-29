@@ -27,15 +27,15 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-inner">
           <div>
-            <span className="eyebrow">CodeAlpha • Full Stack Development</span>
+            {<span className="eyebrow"><p>Your everyday store for simple, reliable shopping.</p></span> }
             <h1>Everything you need, in one simple store.</h1>
             <p>Browse products, manage your persistent cart, checkout securely, and keep your order history in one place.</p>
             <a href="#catalogue" className="primary-button">Explore products</a>
           </div>
           <div className="hero-card">
-            <span>Built end-to-end</span>
+            {/* <span>Built end-to-end</span>
             <strong>React → REST API → MongoDB</strong>
-            <small>Authentication • Cart • Orders • Validation</small>
+            <small>Authentication • Cart • Orders • Validation</small> */}
           </div>
         </div>
       </section>

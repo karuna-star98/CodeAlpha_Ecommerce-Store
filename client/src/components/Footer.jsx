@@ -4,9 +4,9 @@ export default function Footer() {
       <div className="container footer-inner">
         <div>
           <strong>ShopSphere</strong>
-          <p>CodeAlpha Task 1 • Full-stack e-commerce proof of work.</p>
+          <p><p>Your everyday store for simple, reliable shopping.</p></p>
         </div>
-        <span>React · Node.js · Express · MongoDB</span>
+        <span></span>
       </div>
     </footer>
   );
