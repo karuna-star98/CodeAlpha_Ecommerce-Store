@@ -24,7 +24,9 @@ const PORT = process.env.PORT || 5000;
 
 async function start() {
   await connectDB();
-  app.listen(PORT, () => console.log(`ShopSphere API running on port ${PORT}`));
+  app.listen(PORT, '0.0.0.0', () =>
+  console.log(`ShopSphere API running on port ${PORT}`)
+);
 }
 
 start().catch((error) => {
